@@ -1,7 +1,11 @@
 # [VS Code](https://code.visualstudio.com) Tips and Tricks
 
->**Note**: Tips and Tricks has moved to the official Visual Studio Code documentation at [code.visualstudio.com](https://code.visualstudio.com/docs/getstarted/tips-and-tricks).<BR>
->The content is now at [vscode-docs](https://github.com/Microsoft/vscode-docs/blob/master/docs/getstarted/tips-and-tricks.md). Pull requests and documentation issues are still greatly appreciated.
+> **Note**: Tips and Tricks has moved to the official Visual Studio Code
+> documentation at
+> [code.visualstudio.com](https://code.visualstudio.com/docs/getstarted/tips-and-tricks).<BR>
+> The content is now at
+> [vscode-docs](https://github.com/Microsoft/vscode-docs/blob/master/docs/getstarted/tips-and-tricks.md).
+> Pull requests and documentation issues are still greatly appreciated.
 
 # Table of Contents
 
@@ -17,23 +21,31 @@
 10. <a href="#task-runner">Task runner</a>
 11. <a href="#other-resources">Other Resources</a>
 
-> The key bindings below may or may not be accurate with the latest build. See [here](https://code.visualstudio.com/docs/getstarted/keybindings) for the latest keyboard shortcut reference.
+> The key bindings below may or may not be accurate with the latest build. See
+> [here](https://code.visualstudio.com/docs/getstarted/keybindings) for the
+> latest keyboard shortcut reference.
 
 # Basics
 
 ## Insider Version of VS Code
 
-The Visual Studio Code team uses the Insiders version to test the latest features and bug fixes of VS Code. You can use this same version by [downloading here](https://code.visualstudio.com/insiders).
+The Visual Studio Code team uses the Insiders version to test the latest
+features and bug fixes of VS Code. You can use this same version by
+[downloading here](https://code.visualstudio.com/insiders).
 
-* For Early Adopters - Insiders has the most recent code changes and may lead to the occasional broken build.
-* Frequent Builds - New builds everyday with the latest bug fixes and features.
-* Side-by-side install - Insiders installs next to the Stable build allowing you to use either independently.
+-   For Early Adopters - Insiders has the most recent code changes and may lead
+    to the occasional broken build.
+-   Frequent Builds - New builds everyday with the latest bug fixes and
+    features.
+-   Side-by-side install - Insiders installs next to the Stable build allowing
+    you to use either independently.
 
 ![side by side install](/media/side-by-side-install.png)
 
 ## Getting Started
 
-Open the **Welcome** page to get started with the basics of VS Code. **Help** > **Welcome**.
+Open the **Welcome** page to get started with the basics of VS Code. **Help** >
+**Welcome**.
 
 ![welcome page](/media/welcome_page.png)
 
@@ -53,7 +65,9 @@ Access all available commands based on your current context.
 
 ## Reference keybindings
 
-All of the commands are in the **Command Palette** with the associated key binding (if it exists). If you forget what the key binding is use the **Command Palette** to help you out.
+All of the commands are in the **Command Palette** with the associated key
+binding (if it exists). If you forget what the key binding is use the **Command
+Palette** to help you out.
 
 ![keyboard references](/media/keyboard-references.png)
 
@@ -71,24 +85,29 @@ Quickly open files.
 
 ### Navigate between recently opened files
 
-Repeat the **Quick Open** keyboard shortcut to cycle quickly between recently opened files.
+Repeat the **Quick Open** keyboard shortcut to cycle quickly between recently
+opened files.
 
 ### Open multiple files from Quick Open
 
-You can open multiple files from **Quick Open** by pressing the Right arrow key. This will open the currently selected file in the background and you can continue selecting files from **Quick Open**.
+You can open multiple files from **Quick Open** by pressing the Right arrow key.
+This will open the currently selected file in the background and you can
+continue selecting files from **Quick Open**.
 
 ## CLI tool
 
-> Linux: Follow instructions [here](https://code.visualstudio.com/docs/setup/linux).
+> Linux: Follow instructions
+> [here](https://code.visualstudio.com/docs/setup/linux).
 
-> Windows: Follow instructions [here](https://code.visualstudio.com/docs/setup/windows).
+> Windows: Follow instructions
+> [here](https://code.visualstudio.com/docs/setup/windows).
 
 > Mac: see below.
 
-Open the **Command Palette** (<kbd>F1</kbd>) and type "shell command". Hit enter to execute **Shell Command: Install 'code' command in PATH**.
+Open the **Command Palette** (<kbd>F1</kbd>) and type "shell command". Hit enter
+to execute **Shell Command: Install 'code' command in PATH**.
 
 ![shell command](/media/setup_shell-command.png)
-
 
 ```bash
 # open code with current directory
@@ -117,7 +136,8 @@ code --disable-extensions .
 
 ## .vscode folder
 
-Workspace specific files are in `.vscode`. For example, `tasks.json` for the Task Runner and `launch.json` for the debugger.
+Workspace specific files are in `.vscode`. For example, `tasks.json` for the
+Task Runner and `launch.json` for the debugger.
 
 ## Status Bar decorations
 
@@ -143,24 +163,28 @@ You can filter problems by type ('errors', 'warnings') or text matching.
 
 ![change syntax](/media/change_syntax.gif)
 
-If you want to persist the new language mode for that file type, you can use the **Configure File Association for ...** command to associate the current file extension with an installed language.
+If you want to persist the new language mode for that file type, you can use the
+**Configure File Association for ...** command to associate the current file
+extension with an installed language.
 
 # Customization
 
 There are many things you can do to customize VS Code.
 
-* Change your theme
-* Change your keyboard shortcuts
-* Tune your settings
-* Add JSON validation
-* Create snippets
-* Install extensions
+-   Change your theme
+-   Change your keyboard shortcuts
+-   Tune your settings
+-   Add JSON validation
+-   Create snippets
+-   Install extensions
 
-Check out the full [documentation](https://code.visualstudio.com/docs/getstarted/settings).
+Check out the full
+[documentation](https://code.visualstudio.com/docs/getstarted/settings).
 
 ## Change your theme
 
-Open the **Command Palette** and type "themes". You can install more themes from the extension Marketplace.
+Open the **Command Palette** and type "themes". You can install more themes from
+the extension Marketplace.
 
 ![Preview themes](/media/PreviewThemes.gif)
 
@@ -172,27 +196,37 @@ Additionally, you can install and change your File Icon themes.
 
 ### Keyboard Reference Sheets
 
-Download the keyboard shortcut reference sheet for your platform ([macOS](https://go.microsoft.com/fwlink/?linkid=832143), [Windows](https://go.microsoft.com/fwlink/?linkid=832145), [Linux](https://go.microsoft.com/fwlink/?linkid=832144)).
+Download the keyboard shortcut reference sheet for your platform
+([macOS](https://go.microsoft.com/fwlink/?linkid=832143),
+[Windows](https://go.microsoft.com/fwlink/?linkid=832145),
+[Linux](https://go.microsoft.com/fwlink/?linkid=832144)).
 
 ![Keyboard Reference Sheet](/media/KeyboardReferenceSheet.png)
 
 ### Keymaps
 
-Are you used to keyboard shortcuts from another editor? You can install a Keymap extension that brings the keyboard shortcuts from your favorite editor to VS Code. Go to **Preferences** > **Keymap Extensions** to see the current list on the [Marketplace](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads). Some of the more popular ones:
+Are you used to keyboard shortcuts from another editor? You can install a Keymap
+extension that brings the keyboard shortcuts from your favorite editor to VS
+Code. Go to **Preferences** > **Keymap Extensions** to see the current list on
+the
+[Marketplace](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads).
+Some of the more popular ones:
 
-- [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
-- [Sublime Text Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
-- [Emacs Keymap](https://marketplace.visualstudio.com/items?itemName=hiro-sun.vscode-emacs)
-- [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)
-- [Eclipse Keymap](https://marketplace.visualstudio.com/items?itemName=alphabotsec.vscode-eclipse-keybindings)
+-   [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+-   [Sublime Text Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
+-   [Emacs Keymap](https://marketplace.visualstudio.com/items?itemName=hiro-sun.vscode-emacs)
+-   [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)
+-   [Eclipse Keymap](https://marketplace.visualstudio.com/items?itemName=alphabotsec.vscode-eclipse-keybindings)
 
 ### Customize your keyboard shortcuts
 
-Open the **Command Palette** and type "keyboard shortcuts." You can now add your own keybindings in the file on the right.
+Open the **Command Palette** and type "keyboard shortcuts." You can now add your
+own keybindings in the file on the right.
 
 ![customize keyboard shortcuts](/media/KeyboardShortcuts.gif)
 
-See more in [Key Bindings for Visual Studio Code](https://code.visualstudio.com/docs/getstarted/keybindings).
+See more in
+[Key Bindings for Visual Studio Code](https://code.visualstudio.com/docs/getstarted/keybindings).
 
 ## Tune your settings
 
@@ -200,70 +234,74 @@ Open `settings.json`
 
 > Mac: <kbd>cmd+,</kbd>
 
-> Windows / Linux: **File** > **Preferences** > **Settings** or <kbd>ctrl+,</kbd>
+> Windows / Linux: **File** > **Preferences** > **Settings** or
+> <kbd>ctrl+,</kbd>
 
-*Format on paste*
+_Format on paste_
 
 ```json
 "editor.formatOnPaste": true
 ```
 
-*Change the font size*
+_Change the font size_
 
 ```json
 "editor.fontSize": 18
 ```
 
-*Change the zoom level*
+_Change the zoom level_
 
 ```json
 "window.zoomLevel": 5
 ```
 
-*Font ligatures*
+_Font ligatures_
 
 ```json
 "editor.fontFamily": "Fira Code",
 "editor.fontLigatures": true
 ```
 
-> **Tip:** You will need to have a font installed that supports font ligatures. [FiraCode](https://github.com/tonsky/FiraCode) is a popular font on the VS Code team.
+> **Tip:** You will need to have a font installed that supports font ligatures.
+> [FiraCode](https://github.com/tonsky/FiraCode) is a popular font on the VS
+> Code team.
 
 ![font ligatures](/media/font-ligatures-annotated.png)
 
-*Auto Save*
+_Auto Save_
 
 ```json
 "files.autoSave": "afterDelay"
 ```
 
-You can also toggle Auto Save from the top-level menu with the **File** > **Auto Save**.
+You can also toggle Auto Save from the top-level menu with the **File** > **Auto
+Save**.
 
-*Format on save*
+_Format on save_
 
 ```json
 "editor.formatOnSave": true,
 ```
 
-*Change the size of tab characters*
+_Change the size of tab characters_
 
 ```json
 "editor.tabSize": 4
 ```
 
-*Spaces or tabs*
+_Spaces or tabs_
 
 ```json
 "editor.insertSpaces": true
 ```
 
-*Render whitespace*
+_Render whitespace_
 
 ```json
 "editor.renderWhitespace": "all"
 ```
 
-*Ignore files / folders*
+_Ignore files / folders_
 
 Removes these files / folders from your editor window.
 
@@ -295,13 +333,15 @@ For those settings you only want for specific languages.
 }
 ```
 
-> **Tip:** You can find the language ID by typing in the **Command Palette** "Configure language specific settings"
+> **Tip:** You can find the language ID by typing in the **Command Palette**
+> "Configure language specific settings"
 
 ![language based settings](/media/lang-based-settings.png)
 
 ## Add JSON Validation
 
-Enabled by default for many files. Create your own schema and validation in `settings.json`
+Enabled by default for many files. Create your own schema and validation in
+`settings.json`
 
 ```json
 "json.schemas": [
@@ -347,7 +387,8 @@ or a custom schema
     },
 ```
 
-See more in the [documentation](https://code.visualstudio.com/docs/languages/json).
+See more in the
+[documentation](https://code.visualstudio.com/docs/languages/json).
 
 # Extensions
 
@@ -356,33 +397,40 @@ See more in the [documentation](https://code.visualstudio.com/docs/languages/jso
 1. In the VS Code [Marketplace](https://marketplace.visualstudio.com/vscode).
 2. Search inside VS Code
 3. View extension recommendations
-4. Community curated extension lists, such as [awesome-vscode](https://github.com/viatsko/awesome-vscode)
+4. Community curated extension lists, such as
+   [awesome-vscode](https://github.com/viatsko/awesome-vscode)
 
 ## Install extensions
 
-Click the Extensions Activity Bar button. You can search via the search bar or click the **More** (...) button to filter and sort by install count.
+Click the Extensions Activity Bar button. You can search via the search bar or
+click the **More** (...) button to filter and sort by install count.
 
 ![install extensions](/media/InstallExtensions.gif)
 
 ## Extension recommendations
 
-Click the Extensions Activity Bar button. Then click **Show Recommended Extensions** in the **More** (...) button menu.
+Click the Extensions Activity Bar button. Then click **Show Recommended
+Extensions** in the **More** (...) button menu.
 
 ![show recommended extensions](/media/ShowRecommendedExtensions.gif)
 
 ## Creating my own extension
 
-Are you interested in creating your own extension? You can learn how to do this in the documentation, specifically check out the [documentation on contribution points](https://code.visualstudio.com/docs/extensionAPI/extension-points). A simple "Hello, world" tutorial can be found [here](https://code.visualstudio.com/docs/extensions/example-hello-world).
+Are you interested in creating your own extension? You can learn how to do this
+in the documentation, specifically check out the
+[documentation on contribution points](https://code.visualstudio.com/docs/extensionAPI/extension-points).
+A simple "Hello, world" tutorial can be found
+[here](https://code.visualstudio.com/docs/extensions/example-hello-world).
 
-* configuration
-* commands
-* keybindings
-* languages
-* debuggers
-* grammars
-* themes
-* snippets
-* jsonValidation
+-   configuration
+-   commands
+-   keybindings
+-   languages
+-   debuggers
+-   grammars
+-   themes
+-   snippets
+-   jsonValidation
 
 # File and folder management
 
@@ -394,9 +442,8 @@ Are you interested in creating your own extension? You can learn how to do this 
 
 Further reading:
 
-- [Official documentation](https://code.visualstudio.com/docs/editor/integrated-terminal)
-- [Mastering VS Code's Terminal article](http://www.growingwiththeweb.com/2017/03/mastering-vscodes-terminal.html)
-
+-   [Official documentation](https://code.visualstudio.com/docs/editor/integrated-terminal)
+-   [Mastering VS Code's Terminal article](http://www.growingwiththeweb.com/2017/03/mastering-vscodes-terminal.html)
 
 ## Auto Save
 
@@ -406,7 +453,8 @@ Open `settings.json` with <kbd>cmd+,</kbd>
 "files.autoSave": "afterDelay"
 ```
 
-You can also toggle Auto Save from the top-level menu with the **File** > **Auto Save**.
+You can also toggle Auto Save from the top-level menu with the **File** > **Auto
+Save**.
 
 ## Toggle Sidebar
 
@@ -428,7 +476,8 @@ Enter distraction free Zen mode.
 
 ## Side by side editing
 
-> Mac: <kbd>cmd+\\</kbd> or <kbd>cmd</kbd> then click a file from the File Explorer.
+> Mac: <kbd>cmd+\\</kbd> or <kbd>cmd</kbd> then click a file from the File
+> Explorer.
 
 > Windows / Linux: <kbd>ctrl+\\</kbd>
 
@@ -436,7 +485,8 @@ Enter distraction free Zen mode.
 
 ![split editors](/media/split_editor.gif)
 
-You can use drag and drop editors to create new editor groups and move editors between groups.
+You can use drag and drop editors to create new editor groups and move editors
+between groups.
 
 ## Switch between editors
 
@@ -494,7 +544,8 @@ Navigate Forward.
 
 ## File associations
 
-Create language associations for files that aren't detected accurately (for example, many config files are JSON).
+Create language associations for files that aren't detected accurately (for
+example, many config files are JSON).
 
 ```json
 "file.associations": {
@@ -504,7 +555,10 @@ Create language associations for files that aren't detected accurately (for exam
 
 # Editing hacks
 
-Here are a selection of common features for editing code. If the keyboard shortcuts aren't comfortable for you, consider installing a [Keymap extension](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads) for your old editor.
+Here are a selection of common features for editing code. If the keyboard
+shortcuts aren't comfortable for you, consider installing a
+[Keymap extension](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads)
+for your old editor.
 
 ## Multi cursor selection
 
@@ -526,7 +580,8 @@ Add more cursors to current selection.
 
 > Mac: <kbd>ctrl+j</kbd>
 
-> Windows / Linux: Not bound by default. Open Keyboard Shortcuts and bind `editor.action.joinLines` to a shortcut of your choice.
+> Windows / Linux: Not bound by default. Open Keyboard Shortcuts and bind
+> `editor.action.joinLines` to a shortcut of your choice.
 
 ![Join lines](/media/JoinLines.gif)
 
@@ -534,13 +589,16 @@ Add more cursors to current selection.
 
 > Mac: <kbd>opt+shift+up</kbd> or <kbd>opt+shift+down</kbd>
 
-> Windows / Linux([Issue #5363](https://github.com/Microsoft/vscode/issues/5363)): <kbd>shift+alt+down</kbd> or <kbd>shift+alt+up</kbd>
+> Windows /
+> Linux([Issue #5363](https://github.com/Microsoft/vscode/issues/5363)):
+> <kbd>shift+alt+down</kbd> or <kbd>shift+alt+up</kbd>
 
 ![copy line down](/media/copy_line_down.gif)
 
 ## Shrink / expand selection
 
-More in [documentation](https://code.visualstudio.com/docs/editor/editingevolved#_selection-multicursor)
+More in
+[documentation](https://code.visualstudio.com/docs/editor/editingevolved#_selection-multicursor)
 
 > Mac: <kbd>ctrl+shift+cmd+left</kbd> or <kbd>ctrl+shift+cmd+right</kbd>
 
@@ -672,72 +730,79 @@ You can view available methods, parameter hints, short documentation, etc.
 
 ## Peek
 
-Select a symbol then type <kbd>alt+f12</kbd>. Alternatively, you can use the context menu.
+Select a symbol then type <kbd>alt+f12</kbd>. Alternatively, you can use the
+context menu.
 
 ![peek](/media/peek.gif)
 
 ## Go to Definition
 
-Select a symbol then type <kbd>f12</kbd>. Alternatively, you can use the context menu or <kbd>ctrl+click</kbd> (<kbd>cmd+click</kbd> on macOS).
+Select a symbol then type <kbd>f12</kbd>. Alternatively, you can use the context
+menu or <kbd>ctrl+click</kbd> (<kbd>cmd+click</kbd> on macOS).
 
 ![go to definition](/media/goto_definition.gif)
 
-You can go back to your previous location with the **Go** > **Back** command or <kbd>alt+left</kbd> (<kbd>ctrl+-</kbd> on macOS).
+You can go back to your previous location with the **Go** > **Back** command or
+<kbd>alt+left</kbd> (<kbd>ctrl+-</kbd> on macOS).
 
 ## Find All References
 
-Select a symbol then type <kbd>shift+f12</kbd>. Alternatively, you can use the context menu.
+Select a symbol then type <kbd>shift+f12</kbd>. Alternatively, you can use the
+context menu.
 
 ![find all references](/media/find_all_references.gif)
 
 ## Rename Symbol
 
-Select a symbol then type <kbd>f2</kbd>. Alternatively, you can use the context menu.
+Select a symbol then type <kbd>f2</kbd>. Alternatively, you can use the context
+menu.
 
 ![rename symbol](/media/rename_symbol.gif)
 
 ## .eslintrc.json
 
-Install the [ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint). Configure
-your linter however you'd like. Specification is [here](http://eslint.org/docs/user-guide/configuring).
+Install the
+[ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
+Configure your linter however you'd like. Specification is
+[here](http://eslint.org/docs/user-guide/configuring).
 
 Here is configuration to use ES6.
 
 ```json
 {
-    "env": {
-        "browser": true,
-        "commonjs": true,
-        "es6": true,
-        "node": true
-    },
-    "parserOptions": {
-        "ecmaVersion": 6,
-        "sourceType": "module",
-        "ecmaFeatures": {
-            "jsx": true,
-            "classes": true,
-            "defaultParams": true
-        }
-    },
-    "rules": {
-        "no-const-assign": 1,
-        "no-extra-semi": 0,
-        "semi": 0,
-        "no-fallthrough": 0,
-        "no-empty": 0,
-        "no-mixed-spaces-and-tabs": 0,
-        "no-redeclare": 0,
-        "no-this-before-super": 1,
-        "no-undef": 1,
-        "no-unreachable": 1,
-        "no-use-before-define": 0,
-        "constructor-super": 1,
-        "curly": 0,
-        "eqeqeq": 0,
-        "func-names": 0,
-        "valid-typeof": 1
-    }
+	"env": {
+		"browser": true,
+		"commonjs": true,
+		"es6": true,
+		"node": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true,
+			"classes": true,
+			"defaultParams": true
+		}
+	},
+	"rules": {
+		"no-const-assign": 1,
+		"no-extra-semi": 0,
+		"semi": 0,
+		"no-fallthrough": 0,
+		"no-empty": 0,
+		"no-mixed-spaces-and-tabs": 0,
+		"no-redeclare": 0,
+		"no-this-before-super": 1,
+		"no-undef": 1,
+		"no-unreachable": 1,
+		"no-use-before-define": 0,
+		"constructor-super": 1,
+		"curly": 0,
+		"eqeqeq": 0,
+		"func-names": 0,
+		"valid-typeof": 1
+	}
 }
 ```
 
@@ -757,7 +822,8 @@ See IntelliSense for your `package.json` file.
 
 ## Create custom snippets
 
-**File** > **Preferences** > **User Snippets**, select the language, and create a snippet.
+**File** > **Preferences** > **User Snippets**, select the language, and create
+a snippet.
 
 ```json
 "create component": {
@@ -774,15 +840,19 @@ See IntelliSense for your `package.json` file.
 },
 ```
 
-See more details in [Creating your own Snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets).
+See more details in
+[Creating your own Snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets).
 
 # Git Integration
 
-Git integration comes with VS Code "in-the-box". You can install other SCM provider from the extension Marketplace. This section describes the Git integration but much of the UI and gestures are shared by other SCM providers.
+Git integration comes with VS Code "in-the-box". You can install other SCM
+provider from the extension Marketplace. This section describes the Git
+integration but much of the UI and gestures are shared by other SCM providers.
 
 ## Diffs
 
-Click the Source Control button in the Activity Bar then select the file to diff.
+Click the Source Control button in the Activity Bar then select the file to
+diff.
 
 ![git icon](/media/git_icon.png)
 
@@ -794,27 +864,27 @@ Default is side by side diff.
 
 **Inline view**
 
-Toggle inline view by clicking the **More** (...) button in the top right and selecting **Switch to Inline View**.
+Toggle inline view by clicking the **More** (...) button in the top right and
+selecting **Switch to Inline View**.
 
 ![more git button](/media/more_button.png)
 
 ![git inline](/media/git_inline.png)
 
-If you prefer the inline view, you can set `"diffEditor.renderSideBySide": false`.
-
+If you prefer the inline view, you can set
+`"diffEditor.renderSideBySide": false`.
 
 **Review Pane**
 
-Navigate through diffs with `F7` and `Shift+F7`. This will present them in a unified patch format.
-Lines can be navigated with arrow keys and pressing `Enter` will jump back in the diff editor and the selected line.
+Navigate through diffs with `F7` and `Shift+F7`. This will present them in a
+unified patch format. Lines can be navigated with arrow keys and pressing
+`Enter` will jump back in the diff editor and the selected line.
 
 ![diff_review_pane](/media/diff_review_pane.png)
-
 
 **Edit pending changes**
 
 You can make edits directly in the pending changes of the diff view.
-
 
 ## Branches
 
@@ -832,7 +902,8 @@ Hover over the number of files and click the plus button.
 
 **Stage selected**
 
-Stage a portion of a file by selecting that file (using the arrows) and then choosing **Stage Selected Ranges** from the **Command Palette**.
+Stage a portion of a file by selecting that file (using the arrows) and then
+choosing **Stage Selected Ranges** from the **Command Palette**.
 
 ![git stage selected](https://cloud.githubusercontent.com/assets/1926584/23407797/ebeefbb4-fdc5-11e6-8ca1-c4c6c056a8fd.png)
 
@@ -842,7 +913,8 @@ Stage a portion of a file by selecting that file (using the arrows) and then cho
 
 ## See Git output
 
-VS Code makes it easy to see what Git commands are actually running. This is helpful when learning Git or debugging a difficult source control issue.
+VS Code makes it easy to see what Git commands are actually running. This is
+helpful when learning Git or debugging a difficult source control issue.
 
 > Mac: <kbd>shift+cmd+u</kbd>
 
@@ -852,13 +924,17 @@ to run `toggleOutput`. Select **Git** in the drop-down.
 
 ## Gutter indicators
 
-View diff decorations in editor. See [documentation](https://code.visualstudio.com/docs/editor/versioncontrol#_gutter-indicators) for more details.
+View diff decorations in editor. See
+[documentation](https://code.visualstudio.com/docs/editor/versioncontrol#_gutter-indicators)
+for more details.
 
 ![git gutter indicators](/media/editingevolved_gutter.png)
 
 ## Resolve merge conflicts
 
-During a merge, click the Source Control button in the Activity Bar and make changes in the diff view. Select and accept current, incoming or both changes in just one click.
+During a merge, click the Source Control button in the Activity Bar and make
+changes in the diff view. Select and accept current, incoming or both changes in
+just one click.
 
 ![git icon](/media/git_icon.png)
 ![resolve merge conflicts](/media/resolve_merge_conflicts.gif)
@@ -868,21 +944,29 @@ During a merge, click the Source Control button in the Activity Bar and make cha
 ```bash
 git config --global merge.tool code
 ```
+
 ## Pull request extension
 
-Review pull requests inside vscode [vscode-pull-request-github](https://github.com/Microsoft/vscode-pull-request-github)
+Review pull requests inside vscode
+[vscode-pull-request-github](https://github.com/Microsoft/vscode-pull-request-github)
 
 # Debugging
 
 ## Configure debugger
 
-<kbd>f1</kbd> and select **Debug: Open launch.json**, select the environment. This will generate a `launch.json` file. Works out of the box as expected for Node.js and other environments. May need some additional configuration for other languages. See [documentation](https://code.visualstudio.com/docs/editor/debugging) for more details.
+<kbd>f1</kbd> and select **Debug: Open launch.json**, select the environment.
+This will generate a `launch.json` file. Works out of the box as expected for
+Node.js and other environments. May need some additional configuration for other
+languages. See
+[documentation](https://code.visualstudio.com/docs/editor/debugging) for more
+details.
 
 ![configure debugging](/media/configure_debug.gif)
 
 ## Breakpoints and stepping through
 
-Place breakpoints next to the line number. Navigate forward with the Debug widget.
+Place breakpoints next to the line number. Navigate forward with the Debug
+widget.
 
 ![debug](/media/node_debug.gif)
 
@@ -894,49 +978,55 @@ Inspect variables in the Debug panels and in the console.
 
 ## Inline values
 
-You can set `"debug.inlineValues": true` to see variable values inline in the debugger. This feature is experimental and disabled by default.
+You can set `"debug.inlineValues": true` to see variable values inline in the
+debugger. This feature is experimental and disabled by default.
 
 # Task Runner
 
 ## Auto detect tasks
 
-Select **Tasks** from the top-level menu, run the command **Configure Tasks...**, then select the type of task you'd like to run.
-This will generate a `tasks.json` file with content like the following. See the Tasks [documentation](https://go.microsoft.com/fwlink/?LinkId=733558) for more details.
+Select **Tasks** from the top-level menu, run the command **Configure
+Tasks...**, then select the type of task you'd like to run. This will generate a
+`tasks.json` file with content like the following. See the Tasks
+[documentation](https://go.microsoft.com/fwlink/?LinkId=733558) for more
+details.
 
 ```json
 {
-    // See http://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
-    "version": "0.1.0",
-    "command": "npm",
-    "isShellCommand": true,
-    "showOutput": "always",
-    "suppressTaskName": true,
-    "tasks": [
-        {
-            "taskName": "install",
-            "args": ["install"]
-        },
-        {
-            "taskName": "build",
-            "args": ["run", "build"]
-        }
-    ]
+	// See http://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "0.1.0",
+	"command": "npm",
+	"isShellCommand": true,
+	"showOutput": "always",
+	"suppressTaskName": true,
+	"tasks": [
+		{
+			"taskName": "install",
+			"args": ["install"]
+		},
+		{
+			"taskName": "build",
+			"args": ["run", "build"]
+		}
+	]
 }
 ```
 
-There are occasionally issues with auto generation. Check out the documentation for getting things to work properly.
+There are occasionally issues with auto generation. Check out the documentation
+for getting things to work properly.
 
 ## Run tasks from the Tasks menu
 
-Select **Tasks** from the top-level menu, run the command **Run Task...**, and select the task you want to run. Terminate the running task by running the command **Terminate Task...**
+Select **Tasks** from the top-level menu, run the command **Run Task...**, and
+select the task you want to run. Terminate the running task by running the
+command **Terminate Task...**
 
 ![task runner](/media/task_runner.gif)
 
-
 ## Other Resources
 
-* [vscode official docs](https://code.visualstudio.com/docs)
-* [react sample app](https://github.com/Microsoft/vscode-react-sample)
-* [awesome vscode](https://github.com/viatsko/awesome-vscode)
-* [vscode can do that](https://vscodecandothat.com/) 
+-   [vscode official docs](https://code.visualstudio.com/docs)
+-   [react sample app](https://github.com/Microsoft/vscode-react-sample)
+-   [awesome vscode](https://github.com/viatsko/awesome-vscode)
+-   [vscode can do that](https://vscodecandothat.com/)
